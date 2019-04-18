@@ -1,2 +1,11 @@
+* no-cargo
+
 $ rustc main.rs
 
+* cargo
+
+$ cargo new hello_cargo --bin
+$ cd hello_cargo
+$ cargo build
+$ ./target/debug/hello_cargo
+Hello, world!
